@@ -46,3 +46,120 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* My code starts here */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #033048;
+}
+
+p {
+	font-size: 13px;
+	font-weight: 300;
+}
+
+ul {
+	font-size: 13px;
+	font-weight: 300;
+	list-style: decimal;
+}
+
+header {
+	height: 700px;
+	background-image: url('./images/header_bg.jpg');
+	background-size: cover;
+}
+
+footer {
+	height: 350px;
+	background-color: #121212;
+}
+
+.copyright {
+	font-size: 9px;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+	padding: 35px;
+}
+
+.button {
+	border-radius: 5px;
+	font-weight: 800;
+	text-align: center;
+	padding: 10px;
+}
+
+#button-yellow {
+	background-color: #f9e42e;
+	font-size: 14px;
+	color: #033048;
+}
+
+#button-blue {
+	background-color: #033048;
+	font-size: 12px;
+	color: white;
+	height: 30px;
+	width: 150px;
+}
+
+.separator {
+	height: 120px;
+	background-color: #f9e42e;
+	vertical-align: center;
+}
+
+.logo {
+	font-size: 24px;
+	font-weight: 800;
+}
+
+#logo-white {
+	color: white;
+}
+
+#logo-yellow {
+	color: #f9e42e;
+	padding: 35px;
+	text-align: center;
+}
+
+.main-content {
+	height: 612px;
+}
+
+.testimonial {
+	height: 395px;
+	background-image: url('./images/testimonial_bg.jpg');
+	background-size: cover;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+
+#quote {
+	font-weight: 300;
+}
+
+#client {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.social {
+	text-align: center;
+	padding: 35px;
+}
